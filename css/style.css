@@ -45,6 +45,7 @@ nav {
 
 iframe {
   margin: 50px 150px;
+  width: 700px;
 }
 
 .sticky {
@@ -57,8 +58,38 @@ iframe {
 #strategy {
   margin-top: 50px;
 }
-
+.link-1 {
+  border-left: solid;
+}
 .active{
 	color: white;
 	background-color: rgba(100,100,100,1);
+}
+
+@media (max-width: 400px) {
+  body {
+    width: 375px;
+    border: none;
+  }
+  .sticky {
+    width: 375px;
+  }
+  iframe{
+    width: 375px;
+    margin: 50px 0;
+  }
+  nav {
+    display: none;
+  }
+  .link-1 {
+    border-left: none;
+  }
+  .link {
+    min-width: 80px;;
+  }
+  a {
+    border: none;
+
+  }
+
 }
