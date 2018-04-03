@@ -1,16 +1,34 @@
 html {
   cursor: url("cur.png"), default;
-  font-family: Megrim, san-serif;
+  font-family: "Open Sans", san-serif;
 
 }
 
 body {
-  width: 1000px;
-  margin: 0 auto;
-  border-right: solid;
-  border-left: solid;
+  font-size: 1.3rem;
 }
 
+h1 {
+  font-family: "Megrim", san-serif;
+  font-size: 50px;
+  border-bottom: solid;
+  width: 100%;
+  margin-bottom: 20px;
+}
+img {
+  width: 800px;
+  margin-bottom: 30px;
+}
+.marvel {
+  width: 300px;
+}
+.vd {
+  width: 375px;
+  margin: 20px 100px 0 0;
+}
+p {
+  width: 800px;
+}
 a {
   text-decoration: none;
   border-right: solid;
@@ -29,11 +47,18 @@ a:hover {
 }
 
 .header{
-  font-size: 4rem;
-  font-weight: 100;
-  text-align: center;
+  font-size: 5rem;
+  border-bottom: solid;
+  position: fixed;
+  left: 100px;
+  padding-left: 10px;
+  background: white;
 }
-
+.head {
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
 nav {
   display: block;
   text-align: center;
@@ -43,9 +68,17 @@ nav {
   border-bottom: solid;
 }
 
+span {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
 iframe {
-  margin: 50px 150px;
-  width: 700px;
+  min-width: 375px;
+  margin: 50px auto;
+  display: block;
+  border: solid 1px;
+
 }
 
 .sticky {
@@ -55,8 +88,32 @@ iframe {
   width: 980px;
 }
 
+#development {
+  width: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+  margin: 100px;
+  border: solid;
+  background: black;
+  border-radius: 50px;
+  position: fixed;
+}
+#problem {
+  display: block;
+  margin: 200px 0 600px 600px;
+}
+#discovery {
+  display: block;
+  margin: 200px 0 600px 600px;
+}
 #strategy {
-  margin-top: 50px;
+  display: block;
+  margin: 200px 0 600px 600px;
+}
+#architecture {
+  display: block;
+  margin: 200px 0 600px 600px;
 }
 .link-1 {
   border-left: solid;
@@ -64,32 +121,4 @@ iframe {
 .active{
 	color: white;
 	background-color: rgba(100,100,100,1);
-}
-
-@media (max-width: 400px) {
-  body {
-    width: 375px;
-    border: none;
-  }
-  .sticky {
-    width: 375px;
-  }
-  iframe{
-    width: 375px;
-    margin: 50px 0;
-  }
-  nav {
-    display: none;
-  }
-  .link-1 {
-    border-left: none;
-  }
-  .link {
-    min-width: 80px;;
-  }
-  a {
-    border: none;
-
-  }
-
 }
