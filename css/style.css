@@ -175,18 +175,6 @@ iframe {
     display: block;
     border: solid 1px;
   }
-
-
-  #development {
-    width: 400px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: block;
-    margin: 100px;
-    border: solid;
-    background: black;
-    border-radius: 50px;
-  }
   .section {
     display: block;
   }
