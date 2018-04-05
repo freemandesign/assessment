@@ -54,8 +54,6 @@ a:hover {
   padding-left: 10px;
   background: white;
   z-index: 100;
-  box-shadow: 14px -3px 60px 0px #636262;
-  border-radius: 40px;
 }
 .head {
   height: 100vh;
