@@ -106,8 +106,16 @@ iframe {
   margin: 200px 0 400px 600px;
 }
 
+#dev{
+  margin-bottom: 1000px
+}
+
 .vd {
-  float: left;
+  margin: 5px 400px 50px 300px;
+}
+
+.title {
+  margin: 0 0 10px 300px;
 }
 .vc {
   height: 700px;
